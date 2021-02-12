@@ -142,28 +142,28 @@ game_initialized = false
 
 # PROGRAM
 # Intro Messages
-# slow_print(head, 0.05)
-# sleep(1)
-# slow_print(dl_msg, 0.05)
-# 5.times do
-#   slow_print(flag, 0.5)
-# end
-# sleep(1)
-# slow_print(dl_complete, 0.05)
-# sleep(1)
-# slow_print(game_wiki1, 0.05)
-# sleep(0.5)
-# slow_print(game_wiki2, 0.05)
-# sleep(0.5)
-# slow_print(game_wiki3, 0.05)
-# sleep(0.5)
-# slow_print(game_wiki4, 0.05)
-# sleep(1)
+slow_print(head, 0.05)
+sleep(1)
+slow_print(dl_msg, 0.05)
+5.times do
+  slow_print(flag, 0.5)
+end
+sleep(1)
+slow_print(dl_complete, 0.05)
+sleep(1)
+slow_print(game_wiki1, 0.05)
+sleep(0.5)
+slow_print(game_wiki2, 0.05)
+sleep(0.5)
+slow_print(game_wiki3, 0.05)
+sleep(0.5)
+slow_print(game_wiki4, 0.05)
+sleep(1)
 
-# slow_print(lets_play1, 0.05)
-# sleep(1)
-# slow_print(lets_play2, 0.05)
-# sleep(1)
+slow_print(lets_play1, 0.05)
+sleep(1)
+slow_print(lets_play2, 0.05)
+sleep(1)
 
 # Get Player O Name
 slow_print(pO_enter, 0.05)
@@ -192,10 +192,10 @@ game = Game.new
 sleep(0.5)
 
 # Print instruction
-# slow_print(instruction, 0.05)
-# sleep(0.5)
-# slow_print("A1\n\n", 0.5)
-# sleep(1)
+slow_print(instruction, 0.05)
+sleep(0.5)
+slow_print("A1\n\n", 0.5)
+sleep(1)
 
 while Game.finished == false
   game.draw_board
